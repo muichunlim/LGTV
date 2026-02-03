@@ -45,5 +45,4 @@ if [[ "$HTTP_CODE" =~ ^2 ]]; then
 else
   echo "[WARNING] Non-success status code: $HTTP_CODE"
 fi
-echo "==============================================="
 
